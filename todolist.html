@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+    <title>My Todolist</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>My Todolist</h1>
+    <hr>
+    <form>
+   <label>
+     Task Name:
+     <input id="new-task-input" type="text" placeholder="What to do?">
+   </label>
+   <button type="button" id="add-task-button">
+     Add Task
+   </button>
+ </form>
+ <br>
+ <br>
+ <h2>Current Task</h2>
+ <h3 id='gagoka'> If task is completed please click the checkbox </h3>
+ <ul id="todolist-container">
+ </ul>
+ <hr>
+ <script type="text/template" id="list-item-template">
+<li class="task">
+  <label>
+    <input class="checkbox" type="checkbox">
+    <!-- bercs -->
+  </label>
+</li>
+
+</script>
+<script src="javascript.js"></script>
+  </body>
+  </html>
